@@ -45,11 +45,11 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       youverify-liveness-web:
-        specifier: ^1.1.7
-        version: 1.1.7
+        specifier: file:/Users/chimailo/Documents/yv/liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz
+        version: file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz
       youverify-passive-liveness-web:
-        specifier: ^1.0.4
-        version: 1.0.4
+        specifier: file:/Users/chimailo/Documents/yv/passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz
+        version: file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz
     devDependencies:
       '@types/node':
         specifier: ^24.13.2
@@ -1908,11 +1908,13 @@ packages:
     resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
     engines: {node: '>=18'}
 
-  youverify-liveness-web@1.1.7:
-    resolution: {integrity: sha512-Ld2aB+zo5nefVwZ89UOeRVGCNf2AaALt2ScQaQjdfByrmHHc0N3JKrLi4GE6dAutenEynjbJx+tTLTzB+BZBZQ==}
+  youverify-liveness-web@file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz:
+    resolution: {integrity: sha512-9yXwxn1M2dC/YXjYe80UeRAJKw5anmnj3f/FXx1o2JXI7SwVnpcld3zmWwMy0OlGsT6Bo8tOQQgo92avDqWW7g==, tarball: file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz}
+    version: 1.2.0
 
-  youverify-passive-liveness-web@1.0.4:
-    resolution: {integrity: sha512-QegDvRsrsOv51BHsttAsIqJPbkyCtl4rVelPef7pQfOEvUVq2texwX9uFZXCPLGpnmFIFu8X1KfUzN6yzMdMEw==}
+  youverify-passive-liveness-web@file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz:
+    resolution: {integrity: sha512-kGCXXPRrx3R4KO7OPQuj6IOUT3u430cLVrJUk8yDLK3/6AnFuvhaVvdXm/6+qtQr6fxTZ/W/Wa5aRrrsQpsHyA==, tarball: file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz}
+    version: 1.0.5
 
   zod-to-json-schema@3.25.2:
     resolution: {integrity: sha512-O/PgfnpT1xKSDeQYSCfRI5Gy3hPf91mKVDuYLUHZJMiDFptvP41MSnWofm8dnCm0256ZNfZIM7DSzuSMAFnjHA==}
@@ -3599,9 +3601,9 @@ snapshots:
 
   yoctocolors@2.1.2: {}
 
-  youverify-liveness-web@1.1.7: {}
+  youverify-liveness-web@file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz: {}
 
-  youverify-passive-liveness-web@1.0.4: {}
+  youverify-passive-liveness-web@file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz: {}
 
   zod-to-json-schema@3.25.2(zod@3.25.76):
     dependencies:
