@@ -45,11 +45,11 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       youverify-liveness-web:
-        specifier: file:/Users/chimailo/Documents/yv/liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz
-        version: file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz
+        specifier: file:./vendor/youverify-liveness-web-1.2.0.tgz
+        version: file:vendor/youverify-liveness-web-1.2.0.tgz
       youverify-passive-liveness-web:
-        specifier: file:/Users/chimailo/Documents/yv/passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz
-        version: file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz
+        specifier: file:./vendor/youverify-passive-liveness-web-1.0.5.tgz
+        version: file:vendor/youverify-passive-liveness-web-1.0.5.tgz
     devDependencies:
       '@types/node':
         specifier: ^24.13.2
@@ -1908,12 +1908,12 @@ packages:
     resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
     engines: {node: '>=18'}
 
-  youverify-liveness-web@file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz:
-    resolution: {integrity: sha512-9yXwxn1M2dC/YXjYe80UeRAJKw5anmnj3f/FXx1o2JXI7SwVnpcld3zmWwMy0OlGsT6Bo8tOQQgo92avDqWW7g==, tarball: file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz}
+  youverify-liveness-web@file:vendor/youverify-liveness-web-1.2.0.tgz:
+    resolution: {integrity: sha512-9yXwxn1M2dC/YXjYe80UeRAJKw5anmnj3f/FXx1o2JXI7SwVnpcld3zmWwMy0OlGsT6Bo8tOQQgo92avDqWW7g==, tarball: file:vendor/youverify-liveness-web-1.2.0.tgz}
     version: 1.2.0
 
-  youverify-passive-liveness-web@file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz:
-    resolution: {integrity: sha512-kGCXXPRrx3R4KO7OPQuj6IOUT3u430cLVrJUk8yDLK3/6AnFuvhaVvdXm/6+qtQr6fxTZ/W/Wa5aRrrsQpsHyA==, tarball: file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz}
+  youverify-passive-liveness-web@file:vendor/youverify-passive-liveness-web-1.0.5.tgz:
+    resolution: {integrity: sha512-kGCXXPRrx3R4KO7OPQuj6IOUT3u430cLVrJUk8yDLK3/6AnFuvhaVvdXm/6+qtQr6fxTZ/W/Wa5aRrrsQpsHyA==, tarball: file:vendor/youverify-passive-liveness-web-1.0.5.tgz}
     version: 1.0.5
 
   zod-to-json-schema@3.25.2:
@@ -3601,9 +3601,9 @@ snapshots:
 
   yoctocolors@2.1.2: {}
 
-  youverify-liveness-web@file:../liveness-sdk-web-v2/youverify-liveness-web-1.2.0.tgz: {}
+  youverify-liveness-web@file:vendor/youverify-liveness-web-1.2.0.tgz: {}
 
-  youverify-passive-liveness-web@file:../passive-liveness-sdk2/youverify-passive-liveness-web-1.0.5.tgz: {}
+  youverify-passive-liveness-web@file:vendor/youverify-passive-liveness-web-1.0.5.tgz: {}
 
   zod-to-json-schema@3.25.2(zod@3.25.76):
     dependencies:
