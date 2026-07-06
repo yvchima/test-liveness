@@ -12,7 +12,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Switch } from "@/components/ui/switch";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -38,7 +37,6 @@ function App() {
   const [provider, setProvider] = useState<Provider>("active");
   const [task, setTask] = useState<ActiveTaskId>("complete-the-circle");
   const [presentation, setPresentation] = useState<"modal" | "page">("modal");
-  // const [sandbox, setSandbox] = useState(true);
   const [firstName, setFirstName] = useState("");
 
   const [status, setStatus] = useState<Status>("idle");
@@ -167,11 +165,6 @@ function App() {
               </Select>
             </div>
           </div>
-
-          {/* <div className="flex items-center justify-between">
-            <Label htmlFor="sandbox">Sandbox environment</Label>
-            <Switch id="sandbox" checked={sandbox} onCheckedChange={setSandbox} />
-          </div> */}
 
           <Button
             onClick={handleStart}
